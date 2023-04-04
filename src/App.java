@@ -85,6 +85,7 @@ public class App {
         if (classString.equals("dosen")) {
             d.display();
             Scanner scan2 = new Scanner(System.in);
+            System.out.println("other_works | p2m | research | teach | self_dev | sleep");
 
             String method = scan2.next();
             switch (method) {
@@ -112,6 +113,7 @@ public class App {
         } else if (classString.equals("mahasiswa")) {
             m.display();
             Scanner scan2 = new Scanner(System.in);
+            System.out.println("helping_dosen | sleep");
 
             String method = scan2.next();
 
