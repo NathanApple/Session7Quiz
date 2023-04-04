@@ -5,6 +5,9 @@ Attribute:
 * Name
 * Borndate
 
+Method:
+
+* Sleep
 
 **Class Mahasiswa**
 
@@ -15,6 +18,10 @@ Attribute:
 * StudentId
 * Point
 
+Method:
+
+* Sleep
+* Helping Dosen
 
 **Class Mahasiswa**
 
@@ -24,6 +31,15 @@ Attribute:
 * Borndate
 * CodeDosen
 
+Method:
+
+* Sleep
+* P2M
+* Other Works
+* Research
+* Teach
+* Self Dev
+* Sleep
 
 Image: 
 
