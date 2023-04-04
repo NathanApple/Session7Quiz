@@ -74,14 +74,14 @@ class Dosen extends Person {
 
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        // System.out.println("Hello, World!");
         Dosen d = new Dosen("A", "01012001", "DN001");
         Mahasiswa m = new Mahasiswa("Mabu", "03052002", "1234565", 0);
         Scanner scan = new Scanner(System.in);
 
         System.out.println("mahasiswa | dosen");
         String classString = scan.next();
-        System.out.println(classString);
+        // System.out.println(classString);
         if (classString.equals("dosen")) {
             d.display();
             Scanner scan2 = new Scanner(System.in);
@@ -110,6 +110,8 @@ public class App {
                 default:
                     break;
             }
+            d.display();
+
         } else if (classString.equals("mahasiswa")) {
             m.display();
             Scanner scan2 = new Scanner(System.in);
@@ -127,6 +129,8 @@ public class App {
                 default:
                     break;
             }
+
+            m.display();
         }
 
         // d.otherWorks();
