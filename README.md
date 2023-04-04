@@ -33,7 +33,6 @@ Attribute:
 
 Method:
 
-* Sleep
 * P2M
 * Other Works
 * Research
